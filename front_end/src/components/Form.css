@@ -1,0 +1,73 @@
+/* src/components/Form.css */
+
+/* Add styles to the body to center the form container */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #494949; /* Optional: light background color for contrast */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h2{
+  color:black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: lightgrey;
+}
+
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-group button {
+  padding: 10px;
+  width: 48%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-group button:first-child {
+  background-color: #1877f2;
+  color: white;
+}
+
+.button-group button:last-child {
+  background-color: #42b72a;
+  color: white;
+}
+
+.button-group button:hover {
+  opacity: 0.9;
+}
