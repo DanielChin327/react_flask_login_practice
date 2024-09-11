@@ -4,7 +4,7 @@
 
 import sqlalchemy
 
-db = sqlalchemy.create_engine("mariadb+pymysql://root:@172.23.96.1:3306/northwinddb", echo = True)
+db = sqlalchemy.create_engine("mariadb+pymysql://root:@localhost:3306/northwinddb", echo = True)
 
 def get_customers():
     with db.connect() as conn:
@@ -13,6 +13,5 @@ def get_customers():
 
 def main():
     get_customers()
-
 if __name__ == '__main__':
     main()
