@@ -2,7 +2,6 @@
 # sqlalchemy is used to interact with the database
 import sqlalchemy
 # re is imported but not used in this code; it's typically used for regular expression operations
-import re
 
 # Create a database engine using SQLAlchemy
 # This establishes a connection to the MariaDB database using the pymysql driver
